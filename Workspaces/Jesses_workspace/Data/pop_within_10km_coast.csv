@@ -1,0 +1,465 @@
+﻿Code,Entity,Urban_Rural,POPULATION1990PCT,POPULATION2000PCT,POPULATION2010PCT
+ABW,Aruba,RURAL,5,5,5
+ABW,Aruba,URBAN,95,95,95
+AFG,Afghanistan,RURAL,0,0,0
+AFG,Afghanistan,URBAN,0,0,0
+AGO,Angola,RURAL,1,1,1
+AGO,Angola,URBAN,16,18,18
+AIA,Anguilla,RURAL,9,9,9
+AIA,Anguilla,URBAN,91,91,91
+ALB,Albania,RURAL,10,8,8
+ALB,Albania,URBAN,7,9,9
+AND,Andorra,RURAL,0,0,0
+AND,Andorra,URBAN,0,0,0
+ANT,Netherland Antilles,RURAL,9,10,10
+ANT,Netherland Antilles,URBAN,91,90,90
+ARE,United Arab Emirates,RURAL,1,1,1
+ARE,United Arab Emirates,URBAN,28,28,28
+ARG,Argentina,RURAL,1,1,1
+ARG,Argentina,URBAN,18,16,16
+ARM,Armenia,RURAL,0,0,0
+ARM,Armenia,URBAN,0,0,0
+ASM,American Samoa,RURAL,14,13,13
+ASM,American Samoa,URBAN,86,87,87
+ATG,Antigua and Barbuda,RURAL,7,7,7
+ATG,Antigua and Barbuda,URBAN,93,93,93
+AUS,Australia,RURAL,4,4,4
+AUS,Australia,URBAN,32,32,32
+AUT,Austria,RURAL,0,0,0
+AUT,Austria,URBAN,0,0,0
+AZE,Azerbaijan,RURAL,0,0,0
+AZE,Azerbaijan,URBAN,0,0,0
+BDI,Burundi,RURAL,0,0,0
+BDI,Burundi,URBAN,0,0,0
+BEL,Belgium,RURAL,0,0,0
+BEL,Belgium,URBAN,4,4,4
+BEN,Benin,RURAL,2,2,2
+BEN,Benin,URBAN,16,15,16
+BFA,Burkina Faso,RURAL,0,0,0
+BFA,Burkina Faso,URBAN,0,0,0
+BGD,Bangladesh,RURAL,7,7,7
+BGD,Bangladesh,URBAN,2,2,2
+BGR,Bulgaria,RURAL,0,0,0
+BGR,Bulgaria,URBAN,0,0,0
+BHR,Bahrain,RURAL,8,8,8
+BHR,Bahrain,URBAN,92,92,92
+BHS,Bahamas,RURAL,25,22,22
+BHS,Bahamas,URBAN,75,78,78
+BIH,Bosnia-Herzegovina,RURAL,1,1,0
+BIH,Bosnia-Herzegovina,URBAN,0,0,0
+BLR,Belarus,RURAL,0,0,0
+BLR,Belarus,URBAN,0,0,0
+BLZ,Belize,RURAL,16,17,16
+BLZ,Belize,URBAN,29,26,26
+BMU,Bermuda,RURAL,17,17,0
+BMU,Bermuda,URBAN,83,83,0
+BOL,Bolivia,RURAL,0,0,0
+BOL,Bolivia,URBAN,0,0,0
+BRA,Brazil,RURAL,1,1,1
+BRA,Brazil,URBAN,11,11,11
+BRB,Barbados,RURAL,2,2,2
+BRB,Barbados,URBAN,98,98,98
+BRN,Brunei Darussalam,RURAL,3,3,3
+BRN,Brunei Darussalam,URBAN,63,67,67
+BTN,Bhutan,RURAL,0,0,0
+BTN,Bhutan,URBAN,0,0,0
+BWA,Botswana,RURAL,0,0,0
+BWA,Botswana,URBAN,0,0,0
+CAF,Central African Republic,RURAL,0,0,0
+CAF,Central African Republic,URBAN,0,0,0
+CAN,Canada,RURAL,2,2,2
+CAN,Canada,URBAN,9,9,9
+CHE,Switzerland,RURAL,0,0,0
+CHE,Switzerland,URBAN,0,0,0
+CHL,Chile,RURAL,5,5,5
+CHL,Chile,URBAN,12,12,12
+CHN,China,RURAL,2,2,2
+CHN,China,URBAN,3,4,4
+CIV,Ivory Coast,RURAL,1,2,2
+CIV,Ivory Coast,URBAN,8,7,7
+CMR,Cameroon,RURAL,2,2,2
+CMR,Cameroon,URBAN,6,7,7
+COD,"Congo, Democratic Republic",RURAL,0,0,0
+COD,"Congo, Democratic Republic",URBAN,0,0,0
+COG,Congo,RURAL,1,0,0
+COG,Congo,URBAN,18,20,19
+COK,Cook Islands,RURAL,53,47,0
+COK,Cook Islands,URBAN,47,53,0
+COL,Colombia,RURAL,2,1,1
+COL,Colombia,URBAN,5,4,4
+COM,Comoros,RURAL,64,62,62
+COM,Comoros,URBAN,36,38,38
+CPV,Cape Verde,RURAL,56,50,50
+CPV,Cape Verde,URBAN,41,46,46
+CRI,Costa Rica,RURAL,7,7,7
+CRI,Costa Rica,URBAN,2,3,3
+CUB,Cuba,RURAL,24,22,22
+CUB,Cuba,URBAN,9,10,10
+CYM,Cayman Islands,RURAL,16,15,15
+CYM,Cayman Islands,URBAN,84,85,85
+CYP,Cyprus,RURAL,12,11,12
+CYP,Cyprus,URBAN,43,45,36
+CZE,Czech Republic,RURAL,0,0,0
+CZE,Czech Republic,URBAN,0,0,0
+DEU,Germany,RURAL,1,1,1
+DEU,Germany,URBAN,2,1,1
+DJI,Djibouti,RURAL,4,5,5
+DJI,Djibouti,URBAN,70,71,71
+DMA,Commonwealth of Dominica,RURAL,34,27,27
+DMA,Commonwealth of Dominica,URBAN,66,73,73
+DNK,Denmark,RURAL,16,15,15
+DNK,Denmark,URBAN,41,41,41
+DOM,Dominican Republic,RURAL,8,7,7
+DOM,Dominican Republic,URBAN,22,26,26
+DZA,Algeria,RURAL,4,4,4
+DZA,Algeria,URBAN,11,12,12
+ECU,Ecuador,RURAL,4,4,4
+ECU,Ecuador,URBAN,6,6,6
+EGY,Egypt,RURAL,2,2,2
+EGY,Egypt,URBAN,8,8,8
+ERI,Eritrea,RURAL,4,4,4
+ERI,Eritrea,URBAN,1,1,1
+ESP,Spain,RURAL,3,3,3
+ESP,Spain,URBAN,30,31,31
+EST,Estonia,RURAL,7,7,7
+EST,Estonia,URBAN,44,44,43
+ETH,Ethiopia,RURAL,0,0,0
+ETH,Ethiopia,URBAN,0,0,0
+FIN,Finland,RURAL,5,5,5
+FIN,Finland,URBAN,22,23,23
+FJI,Fiji,RURAL,36,36,36
+FJI,Fiji,URBAN,23,23,24
+FLK,Falkland Islands,RURAL,90,95,95
+FLK,Falkland Islands,URBAN,0,0,0
+FRA,France,RURAL,2,2,2
+FRA,France,URBAN,10,10,10
+FRO,Faeroe Islands,RURAL,53,49,49
+FRO,Faeroe Islands,URBAN,47,51,51
+FSM,Federated State of Micronesia,RURAL,30,31,0
+FSM,Federated State of Micronesia,URBAN,70,69,0
+GAB,Gabon,RURAL,2,2,2
+GAB,Gabon,URBAN,49,50,50
+GBR,United Kingdom,RURAL,3,3,3
+GBR,United Kingdom,URBAN,18,18,18
+GEO,Georgia,RURAL,0,0,0
+GEO,Georgia,URBAN,0,0,0
+GGY,Guernsey,RURAL,25,25,25
+GGY,Guernsey,URBAN,75,75,75
+GHA,Ghana,RURAL,3,3,3
+GHA,Ghana,URBAN,14,14,14
+GIB,Gibraltar,RURAL,21,21,21
+GIB,Gibraltar,URBAN,79,79,79
+GIN,Guinea,RURAL,2,2,2
+GIN,Guinea,URBAN,12,11,11
+GLP,Guadeloupe,RURAL,9,8,7
+GLP,Guadeloupe,URBAN,90,92,92
+GMB,Gambia,RURAL,13,12,12
+GMB,Gambia,URBAN,36,42,42
+GNB,Guinea-Bissau,RURAL,17,17,17
+GNB,Guinea-Bissau,URBAN,24,24,25
+GNQ,Equatorial Guinea,RURAL,9,19,19
+GNQ,Equatorial Guinea,URBAN,26,16,16
+GRC,Greece,RURAL,10,10,10
+GRC,Greece,URBAN,49,50,51
+GRD,Grenada,RURAL,42,43,43
+GRD,Grenada,URBAN,58,57,57
+GRL,Greenland,RURAL,76,74,73
+GRL,Greenland,URBAN,22,24,26
+GTM,Guatemala,RURAL,2,2,2
+GTM,Guatemala,URBAN,1,1,1
+GUF,French Guiana,RURAL,12,10,10
+GUF,French Guiana,URBAN,36,38,39
+GUM,Guam,RURAL,3,3,0
+GUM,Guam,URBAN,97,97,0
+GUY,Guyana,RURAL,11,12,12
+GUY,Guyana,URBAN,14,12,12
+HKG,Hong Kong,RURAL,10,10,10
+HKG,Hong Kong,URBAN,88,87,87
+HND,Honduras,RURAL,4,4,4
+HND,Honduras,URBAN,4,4,4
+HRV,Croatia,RURAL,7,7,8
+HRV,Croatia,URBAN,18,17,17
+HTI,Haiti,RURAL,33,31,31
+HTI,Haiti,URBAN,20,23,23
+HUN,Hungary,RURAL,0,0,0
+HUN,Hungary,URBAN,0,0,0
+IDN,Indonesia,RURAL,16,16,16
+IDN,Indonesia,URBAN,13,12,12
+IMN,Isle of Man,RURAL,17,17,17
+IMN,Isle of Man,URBAN,83,83,83
+IND,India,RURAL,2,2,2
+IND,India,URBAN,4,3,3
+IRL,Ireland,RURAL,10,10,10
+IRL,Ireland,URBAN,33,32,32
+IRN,Iran,RURAL,0,0,0
+IRN,Iran,URBAN,1,1,1
+IRQ,Iraq,RURAL,0,0,0
+IRQ,Iraq,URBAN,0,0,0
+ISL,Iceland,RURAL,26,21,21
+ISL,Iceland,URBAN,54,59,59
+ISR,Israel,RURAL,0,0,0
+ISR,Israel,URBAN,41,39,38
+ITA,Italy,RURAL,4,3,3
+ITA,Italy,URBAN,25,25,25
+JAM,Jamaica,RURAL,17,17,17
+JAM,Jamaica,URBAN,36,36,36
+JEY,Jersey,RURAL,5,4,4
+JEY,Jersey,URBAN,95,96,96
+JOR,Jordan,RURAL,0,0,0
+JOR,Jordan,URBAN,1,1,1
+JPN,Japan,RURAL,6,6,6
+JPN,Japan,URBAN,31,31,31
+KAZ,Kazakhstan,RURAL,0,0,0
+KAZ,Kazakhstan,URBAN,0,0,0
+KEN,Kenya,RURAL,2,2,2
+KEN,Kenya,URBAN,3,3,3
+KGZ,Kyrgyz Republic,RURAL,0,0,0
+KGZ,Kyrgyz Republic,URBAN,0,0,0
+KHM,Cambodia,RURAL,2,2,2
+KHM,Cambodia,URBAN,1,1,1
+KIR,Kiribati,RURAL,91,89,0
+KIR,Kiribati,URBAN,9,11,0
+KNA,Saint Kitts and Nevis,RURAL,14,14,14
+KNA,Saint Kitts and Nevis,URBAN,86,86,86
+KOR,Korea,RURAL,5,4,4
+KOR,Korea,URBAN,22,22,22
+KWT,Kuwait,RURAL,10,11,12
+KWT,Kuwait,URBAN,56,55,55
+LAO,Lao People's Democratic Republic,RURAL,0,0,0
+LAO,Lao People's Democratic Republic,URBAN,0,0,0
+LBN,Lebanon,RURAL,5,5,5
+LBN,Lebanon,URBAN,49,49,49
+LBR,Liberia,RURAL,11,11,11
+LBR,Liberia,URBAN,13,13,13
+LBY,Libyan Arab Jamahiriya,RURAL,4,3,3
+LBY,Libyan Arab Jamahiriya,URBAN,31,32,32
+LCA,Saint Lucia,RURAL,34,35,34
+LCA,Saint Lucia,URBAN,66,65,66
+LIE,Liechtenstein,RURAL,0,0,0
+LIE,Liechtenstein,URBAN,0,0,0
+LKA,Sri Lanka,RURAL,11,10,10
+LKA,Sri Lanka,URBAN,18,18,18
+LSO,Lesotho,RURAL,0,0,0
+LSO,Lesotho,URBAN,0,0,0
+LTU,Lithuania,RURAL,1,1,1
+LTU,Lithuania,URBAN,6,6,6
+LUX,Luxembourg,RURAL,0,0,0
+LUX,Luxembourg,URBAN,0,0,0
+LVA,Latvia,RURAL,2,2,2
+LVA,Latvia,URBAN,26,25,25
+MAC,Macao,RURAL,14,16,16
+MAC,Macao,URBAN,86,84,84
+MAR,Morocco (includes Western Sahara),RURAL,4,4,4
+MAR,Morocco (includes Western Sahara),URBAN,17,18,18
+MCO,Monaco,RURAL,20,20,20
+MCO,Monaco,URBAN,80,80,80
+MDA,Republic of Moldova,RURAL,0,0,0
+MDA,Republic of Moldova,URBAN,0,0,0
+MDG,Madagascar,RURAL,9,9,9
+MDG,Madagascar,URBAN,3,3,3
+MDV,Maldives,RURAL,0,0,0
+MDV,Maldives,URBAN,0,0,0
+MEX,Mexico,RURAL,2,2,2
+MEX,Mexico,URBAN,4,4,4
+MHL,Marshall Islands,RURAL,68,69,0
+MHL,Marshall Islands,URBAN,32,31,0
+MKD,Macedonia,RURAL,0,0,0
+MKD,Macedonia,URBAN,0,0,0
+MLI,Mali,RURAL,0,0,0
+MLI,Mali,URBAN,0,0,0
+MLT,Malta,RURAL,6,6,5
+MLT,Malta,URBAN,94,94,95
+MMR,Myanmar,RURAL,7,6,6
+MMR,Myanmar,URBAN,2,2,2
+MNG,Mongolia,RURAL,0,0,0
+MNG,Mongolia,URBAN,0,0,0
+MNP,Northern Mariana Islands,RURAL,19,19,0
+MNP,Northern Mariana Islands,URBAN,81,81,0
+MOZ,Mozambique,RURAL,7,6,6
+MOZ,Mozambique,URBAN,9,11,11
+MRT,Mauritania,RURAL,7,8,8
+MRT,Mauritania,URBAN,7,7,7
+MSR,Montserrat,RURAL,100,100,100
+MSR,Montserrat,URBAN,0,0,0
+MTQ,Martinique,RURAL,3,2,2
+MTQ,Martinique,URBAN,96,96,96
+MUS,Mauritius,RURAL,6,7,6
+MUS,Mauritius,URBAN,67,67,66
+MWI,Malawi,RURAL,0,0,0
+MWI,Malawi,URBAN,0,0,0
+MYS,Malaysia,RURAL,10,10,10
+MYS,Malaysia,URBAN,21,22,22
+MYT,Mayotte,RURAL,68,62,62
+MYT,Mayotte,URBAN,32,38,38
+NAM,Namibia,RURAL,1,1,1
+NAM,Namibia,URBAN,3,4,4
+NCL,New Caledonia,RURAL,27,26,26
+NCL,New Caledonia,URBAN,71,72,72
+NER,Niger,RURAL,0,0,0
+NER,Niger,URBAN,0,0,0
+NFK,Norfolk Island,RURAL,100,100,100
+NFK,Norfolk Island,URBAN,0,0,0
+NGA,Nigeria,RURAL,1,1,1
+NGA,Nigeria,URBAN,1,1,1
+NIC,Nicaragua,RURAL,5,4,4
+NIC,Nicaragua,URBAN,1,2,2
+NIU,Niue,RURAL,100,100,100
+NIU,Niue,URBAN,0,0,0
+NLD,Netherlands,RURAL,4,4,4
+NLD,Netherlands,URBAN,22,22,22
+NOR,Norway,RURAL,12,12,12
+NOR,Norway,URBAN,32,33,33
+NPL,Nepal,RURAL,0,0,0
+NPL,Nepal,URBAN,0,0,0
+NRU,Nauru,RURAL,15,15,0
+NRU,Nauru,URBAN,85,85,0
+NZL,New Zealand,RURAL,8,8,8
+NZL,New Zealand,URBAN,55,57,57
+OMN,Oman,RURAL,5,4,4
+OMN,Oman,URBAN,44,51,51
+PAK,Pakistan,RURAL,0,0,0
+PAK,Pakistan,URBAN,3,3,3
+PAN,Panama,RURAL,12,10,10
+PAN,Panama,URBAN,30,36,36
+PCN,Pitcairn,RURAL,100,100,0
+PCN,Pitcairn,URBAN,0,0,0
+PER,Peru,RURAL,1,1,1
+PER,Peru,URBAN,25,25,25
+PHL,Philippines,RURAL,31,31,31
+PHL,Philippines,URBAN,17,16,16
+PLW,Palau,RURAL,22,21,0
+PLW,Palau,URBAN,78,79,0
+PNG,Papua New Guinea,RURAL,15,15,15
+PNG,Papua New Guinea,URBAN,8,8,8
+POL,Poland,RURAL,1,1,1
+POL,Poland,URBAN,2,2,2
+PRI,Puerto Rico,RURAL,2,2,2
+PRI,Puerto Rico,URBAN,52,51,51
+PRK,"Korea, Dem. People's Rep. of",RURAL,13,13,13
+PRK,"Korea, Dem. People's Rep. of",URBAN,10,9,9
+PRT,Portugal,RURAL,4,5,4
+PRT,Portugal,URBAN,35,35,34
+PRY,Paraguay,RURAL,0,0,0
+PRY,Paraguay,URBAN,0,0,0
+PSE,Occupied Palestinian Territory,RURAL,1,1,1
+PSE,Occupied Palestinian Territory,URBAN,32,33,32
+PYF,French Polynesia,RURAL,48,47,0
+PYF,French Polynesia,URBAN,50,51,0
+QAT,Qatar,RURAL,4,4,4
+QAT,Qatar,URBAN,67,62,62
+REU,Reunion,RURAL,3,3,3
+REU,Reunion,URBAN,87,88,88
+ROU,Romania,RURAL,0,0,0
+ROU,Romania,URBAN,0,0,0
+RUS,Russia,RURAL,0,0,0
+RUS,Russia,URBAN,4,3,3
+RWA,Rwanda,RURAL,0,0,0
+RWA,Rwanda,URBAN,0,0,0
+SAU,Saudi Arabia,RURAL,1,1,1
+SAU,Saudi Arabia,URBAN,9,10,10
+SCG,Serbia and Montenegro,RURAL,0,0,0
+SCG,Serbia and Montenegro,URBAN,0,0,0
+SDN,Sudan,RURAL,0,0,0
+SDN,Sudan,URBAN,1,1,1
+SEN,Senegal,RURAL,4,4,4
+SEN,Senegal,URBAN,26,29,29
+SGP,Singapore,RURAL,4,4,4
+SGP,Singapore,URBAN,87,87,87
+SHN,Saint Helena,RURAL,100,100,0
+SHN,Saint Helena,URBAN,0,0,0
+SJM,Svalbard,RURAL,95,97,0
+SJM,Svalbard,URBAN,0,0,0
+SLB,Solomon Islands,RURAL,73,73,73
+SLB,Solomon Islands,URBAN,11,12,12
+SLE,Sierra Leone,RURAL,7,7,7
+SLE,Sierra Leone,URBAN,16,17,18
+SLV,El Salvador,RURAL,8,8,8
+SLV,El Salvador,URBAN,2,2,2
+SMR,San Marino,RURAL,0,0,0
+SMR,San Marino,URBAN,0,0,0
+SOM,Somalia,RURAL,13,14,14
+SOM,Somalia,URBAN,7,9,9
+SPM,Saint Pierre and Miquelon,RURAL,100,100,100
+SPM,Saint Pierre and Miquelon,URBAN,0,0,0
+STP,Sao Tome and Principe,RURAL,37,27,27
+STP,Sao Tome and Principe,URBAN,59,70,70
+SUR,Suriname,RURAL,3,2,2
+SUR,Suriname,URBAN,49,52,52
+SVK,Slovakia,RURAL,0,0,0
+SVK,Slovakia,URBAN,0,0,0
+SVN,Slovenia,RURAL,1,1,1
+SVN,Slovenia,URBAN,4,4,4
+SWE,Sweden,RURAL,6,6,6
+SWE,Sweden,URBAN,18,19,19
+SWZ,Swaziland,RURAL,0,0,0
+SWZ,Swaziland,URBAN,0,0,0
+SYC,Seychelles,RURAL,31,31,0
+SYC,Seychelles,URBAN,69,69,0
+SYR,Syrian Arab Republic,RURAL,2,2,2
+SYR,Syrian Arab Republic,URBAN,3,3,3
+TCA,Turks and Caicos Islands,RURAL,70,73,72
+TCA,Turks and Caicos Islands,URBAN,30,27,28
+TCD,Chad,RURAL,0,0,0
+TCD,Chad,URBAN,0,0,0
+TGO,Togo,RURAL,1,1,1
+TGO,Togo,URBAN,16,17,17
+THA,Thailand,RURAL,4,5,5
+THA,Thailand,URBAN,3,4,3
+TJK,Tajikistan,RURAL,0,0,0
+TJK,Tajikistan,URBAN,0,0,0
+TKL,Tokelau,RURAL,100,100,100
+TKL,Tokelau,URBAN,0,0,0
+TKM,Turkmenistan,RURAL,0,0,0
+TKM,Turkmenistan,URBAN,0,0,0
+TLS,East Timor,RURAL,44,43,42
+TLS,East Timor,URBAN,10,11,11
+TON,Tonga,RURAL,51,50,50
+TON,Tonga,URBAN,49,50,50
+TTO,Trinidad and Tobago,RURAL,13,13,13
+TTO,Trinidad and Tobago,URBAN,55,55,55
+TUN,Tunisia,RURAL,3,4,4
+TUN,Tunisia,URBAN,26,26,26
+TUR,Turkey,RURAL,1,1,1
+TUR,Turkey,URBAN,5,5,5
+TUV,Tuvalu,RURAL,100,100,0
+TUV,Tuvalu,URBAN,0,0,0
+TWN,Taiwan,RURAL,3,2,2
+TWN,Taiwan,URBAN,39,39,39
+TZA,United Rep. of Tanzania,RURAL,4,3,3
+TZA,United Rep. of Tanzania,URBAN,5,6,6
+UGA,Uganda,RURAL,0,0,0
+UGA,Uganda,URBAN,0,0,0
+UKR,Ukraine,RURAL,0,0,0
+UKR,Ukraine,URBAN,0,0,0
+URY,Uruguay,RURAL,2,2,2
+URY,Uruguay,URBAN,42,42,41
+USA,United States of America,RURAL,0,0,0
+USA,United States of America,URBAN,12,12,12
+UZB,Uzbekistan,RURAL,0,0,0
+UZB,Uzbekistan,URBAN,0,0,0
+VAT,Holy See (Vatican),RURAL,0,0,0
+VAT,Holy See (Vatican),URBAN,0,0,0
+VCT,Saint Vincent,RURAL,70,70,70
+VCT,Saint Vincent,URBAN,30,30,30
+VEN,Venezuela,RURAL,5,5,5
+VEN,Venezuela,URBAN,18,17,17
+VGB,British Virgin Islands,RURAL,43,43,43
+VGB,British Virgin Islands,URBAN,57,57,57
+VIR,United States Virgin Islands,RURAL,7,7,7
+VIR,United States Virgin Islands,URBAN,93,93,93
+VNM,Viet Nam,RURAL,12,12,12
+VNM,Viet Nam,URBAN,4,4,4
+VUT,Vanuatu,RURAL,73,70,70
+VUT,Vanuatu,URBAN,21,24,24
+WLF,Wallis and Futuna,RURAL,100,100,100
+WLF,Wallis and Futuna,URBAN,0,0,0
+WSM,Western Samoa,RURAL,43,42,42
+WSM,Western Samoa,URBAN,51,53,53
+YEM,Yemen,RURAL,4,4,4
+YEM,Yemen,URBAN,4,4,4
+ZAF,South Africa,RURAL,1,1,1
+ZAF,South Africa,URBAN,12,12,12
+ZMB,Zambia,RURAL,0,0,0
+ZMB,Zambia,URBAN,0,0,0
+ZWE,Zimbabwe,RURAL,0,0,0
+ZWE,Zimbabwe,URBAN,0,0,0

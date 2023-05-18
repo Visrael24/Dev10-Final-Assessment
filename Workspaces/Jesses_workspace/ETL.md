@@ -1,3 +1,18 @@
+<h1> StarSharks README </h1>
+This document outlines the StarSharks' final project, including how to navigate the folders in this Github Repository, a formal introduction to our project, where we sourced our data, and a walk through for our initial data processing.
+
+The folders in this repository consist of:
+
+[Data](/Data/), a folder holding our CSV files which we used to perform our data analysis.
+
+[Workspaces](/Workspaces/), a folder containing our individual workspaces, where we carried out work in python notebooks.
+- [Becca's Workspace](/Workspaces/Becca_workspace/)
+- [Jesse's Workspace](/Workspaces/Jesses_workspace/)
+- [Val's Workspace](/Workspaces/Vals_workspace/)
+
+<br>
+
+
 <h1 style="text-align: center;">
 Star Sharks ETL Report
 </h1>
@@ -33,7 +48,7 @@ Finally, we added continent labels by country, using a [Country & Area Dataset](
 <br>
 
 # Extraction and Transformation
-Our steps in processing the data were initially conducted through [VSCode python notebooks](../Vals_workspace/global_.ipynb), where we cleaned up the datasets and ensured that they worked as we expected. We then recreated the process in Azure Databricks, also adding on steps to produce and consume Kafka messages, and finally deliver our data into an SQL database for querying and storage.
+Our steps in processing the data were initially conducted through [VSCode python notebooks](/Workspaces/Vals_workspace/global_.ipynb), where we cleaned up the datasets and ensured that they worked as we expected. We then recreated the process in Azure Databricks, also adding on steps to produce and consume Kafka messages, and finally deliver our data into an SQL database for querying and storage.
 
 <br>
 
