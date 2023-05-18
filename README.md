@@ -71,9 +71,11 @@ For each of the newly created dataframes, we made sure that columns were named a
 - In the `c_n_c` dataframe, we renamed the existing column "`country_or_area`" to "`Entity`"
 
 <br>
+
 Next, we made sure that the years the datasets covered matched up properly. After looking through each of them, we'd found that only one the Population dataframe had to be altered. We filtered the years of this dataframe by adding a clause `population['Year'] > 1960`, which limited its results to only those afer 1960. 
 
 <br>
+
 Finally, we had to restructure our `life_expect` dataframe, as it was set up with "Years" as columns, alongside "Country" and "Country Code", and the various values as rows, whereas our other dataframes listed all the years in a single column, attributed to rows for each of their respective countries. To do so, we used Python's Pandas `melt` function, "unpivoting" the dataframe to give us columns of `Country Name`, `Country Code`, `Year`, and `Value` (the life expectancy per country per year). To finish transforming this dataframe, we had to reassign specific datatypes to a couple columns, and rename the `Value` column:
 
 - `Year` column changed to `int` data type
