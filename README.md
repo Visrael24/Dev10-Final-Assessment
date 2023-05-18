@@ -51,7 +51,7 @@ Finally, we added continent labels by country, using a [Country & Area Dataset](
 <br>
 
 # Extraction and Transformation
-Our steps in processing the data were initially conducted through [VSCode python notebooks](/Workspaces/Vals_workspace/global_.ipynb), where we cleaned up the datasets and ensured that they worked as we expected. We then recreated the process in Azure Databricks, also adding on steps to produce and consume Kafka messages, and finally deliver our data into an SQL database for querying and storage.
+Our steps in processing the data were initially conducted through [VSCode python notebooks](/Workspaces/Vals_workspace/ETL.ipynb), where we cleaned up the datasets and ensured that they worked as we expected. We then recreated the process in Azure Databricks, also adding on steps to produce and consume Kafka messages, and finally deliver our data into an SQL database for querying and storage.
 
 <br>
 
