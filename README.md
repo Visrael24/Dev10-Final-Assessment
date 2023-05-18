@@ -1,7 +1,4 @@
-# Star-Sharks
-Star Sharks: Fins in space
-
-<br>
+<h1> StarSharks README </h1>
 This document outlines the StarSharks' final project, including how to navigate the folders in this Github Repository, a formal introduction to our project, where we sourced our data, and a walk through for our initial data processing.
 
 The folders in this repository consist of:
@@ -42,11 +39,11 @@ The data we used to supplement this investigation was extracted from various sou
 
 As our primary dataset, we used a [How Much Fish do People Eat?](https://ourworldindata.org/fish-and-overfishing#how-much-fish-do-people-eat)<sup>1</sup> dataset from [OurWorldInData](https://ourworldindata.org/), displaying the per capita seafood consumption in different countries. From this same source, we also pulled a [Total Seafood Production by Country](https://ourworldindata.org/fish-and-overfishing#total-seafood-production-by-country)<sup>1</sup> table, which provided us with a list of countries and their individual contributions to global seafood production. 
 
-[Add population dataset source]
+As another metric, we added in a [Historical Population](https://ourworldindata.org/grapher/population)<sup>2</sup>, supplying us with population figures of countries around the world, with recorded data for more recent years and historical estimates for years further in the past. This data was pulled from OurWorldInData, which compiled a set sourced from, the [Hyde Database](https://www.pbl.nl/en/image/links/hyde)<sup>3</sup>, [Gapminder](https://www.gapminder.org/about/)<sup>4</sup>, and the [United Nations](https://population.un.org/wpp/Download/Standard/Population/)<sup>5</sup>. 
 
-To address life expectancy, we brought in a [Global Life Expectancy Historical Dataset](https://www.kaggle.com/datasets/hasibalmuzdadid/global-life-expectancy-historical-dataset)<sup>3</sup> from [Kaggle](https://www.kaggle.com/).
+To address life expectancy, we brought in a [Global Life Expectancy Historical Dataset](https://www.kaggle.com/datasets/hasibalmuzdadid/global-life-expectancy-historical-dataset)<sup>6</sup> from [Kaggle](https://www.kaggle.com/).
 
-Finally, we added continent labels by country, using a [Country & Area Dataset](https://www.kaggle.com/datasets/lukexun/country-area-continent-region-codes)<sup>4</sup>, also from Kaggle. 
+Finally, we added continent labels by country, using a [Country & Area Dataset](https://www.kaggle.com/datasets/lukexun/country-area-continent-region-codes)<sup>7</sup>, also from Kaggle. 
 
 <br>
 
@@ -110,8 +107,14 @@ Once the final dataframe was put together from the merges, we exported it out as
 
 <sup>1</sup>Ritchie, Hannah, and Max Roser. “Fish and Overfishing.” Our World in Data, October 2021. https://ourworldindata.org/fish-and-overfishing#. 
 
-<sup>2</sup>
+<sup>2</sup>“Population.” Our World in Data, March 31, 2023. https://ourworldindata.org/grapher/population. 
 
-<sup>3</sup>Muzdadid, Hasib Al. “Global Life Expectancy Historical Dataset.” Kaggle, November 26, 2022. https://www.kaggle.com/datasets/hasibalmuzdadid/global-life-expectancy-historical-dataset. 
+<sup>3</sup>Klein Goldewijk, K., A. Beusen, J.Doelman and E. Stehfest (2017), Anthropogenic land use estimates for the Holocene; HYDE 3.2, Earth System Science Data, 9, 927-953.
 
-<sup>4</sup>X, Luke. “Country &amp; Area Dataset.” Kaggle, May 23, 2022. https://www.kaggle.com/datasets/lukexun/country-area-continent-region-codes. 
+<sup>4</sup>Gapminder population dataset version 7, based on data by Angus Maddison improved by Clio Infra. https://www.gapminder.org/data/documentation/gd003/.
+
+<sup>5</sup>United Nations, Department of Economic and Social Affairs, Population Division (2022). World Population Prospects 2022, Online Edition. Rev. 1.
+
+<sup>6</sup>Muzdadid, Hasib Al. “Global Life Expectancy Historical Dataset.” Kaggle, November 26, 2022. https://www.kaggle.com/datasets/hasibalmuzdadid/global-life-expectancy-historical-dataset. 
+
+<sup>7</sup>X, Luke. “Country &amp; Area Dataset.” Kaggle, May 23, 2022. https://www.kaggle.com/datasets/lukexun/country-area-continent-region-codes. 
