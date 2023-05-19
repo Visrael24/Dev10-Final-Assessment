@@ -11,8 +11,8 @@ use Fish;
 go
 
 --create denormalized table
+--import csv into denormalized table
 
-drop table TempFishAndCountry;
 
 --create tables
 
@@ -37,13 +37,16 @@ create table Countries (
 );
 go 
 
+drop table if exists CountryAndFishFacts;
+go
+
 create table CountryAndFishFacts (
     FishFactID int primary key identity(1,1),
     Year int not null,
-    FishConsumedkg decimal (7,4) not null,
+    FishConsumedkg float not null,
     FishProducedtons int not null,
     Population int not null,
-    LifeExpectancy decimal (4,2),
+    LifeExpectancy float null,
     CountryID int not null
     constraint fk_CountryAndFishFacts_CountryID
         foreign key (CountryID)
