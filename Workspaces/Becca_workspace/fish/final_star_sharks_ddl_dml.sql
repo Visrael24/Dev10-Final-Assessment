@@ -1,16 +1,4 @@
---testing sql code
 
-use master;
-go
-
-drop database if exists fish_data;
-Go
-create database fish_data;
-go
-use fish_data;
-go
-
---create denormalized table
 --import csv into denormalized table
 
 
