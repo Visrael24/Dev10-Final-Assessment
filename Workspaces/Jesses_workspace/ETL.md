@@ -37,7 +37,7 @@ As our final project, our team sought to investigate global fishing trends, name
 # Data Sources
 The data we used to supplement this investigation was extracted from various sources. 
 
-As our primary dataset, we used a [How Much Fish do People Eat?](https://ourworldindata.org/fish-and-overfishing#how-much-fish-do-people-eat)<sup>1</sup> dataset from [OurWorldInData](https://ourworldindata.org/), displaying the per capita seafood consumption in different countries. From this same source, we also pulled a [Total Seafood Production by Country](https://ourworldindata.org/fish-and-overfishing#total-seafood-production-by-country)<sup>1</sup> table, which provided us with a list of countries and their individual contributions to global seafood production. 
+As our primary dataset, we used a [How Much Fish do People Eat?](https://ourworldindata.org/fish-and-overfishing#how-much-fish-do-people-eat)<sup>1</sup> dataset from [OurWorldInData](https://ourworldindata.org/), displaying the per capita seafood consumption in different countries. From this same source, we also pulled a few other datasets: a [Total Seafood Production by Country](https://ourworldindata.org/fish-and-overfishing#total-seafood-production-by-country) table, which provided us with a list of countries and their individual contributions to global seafood production; a [Protein from Seafood Proportion of Total Protein](https://ourworldindata.org/fish-and-overfishing#how-much-of-our-protein-comes-from-seafood) table, and a [Protein from Seafood Proportion of All Animal Protein](https://ourworldindata.org/fish-and-overfishing#how-much-of-our-animal-protein-comes-from-seafood) table, which look at the average number of kilograms each person in a nation takes in from different sources.  
 
 As another metric, we added in a [Historical Population](https://ourworldindata.org/grapher/population)<sup>2</sup>, supplying us with population figures of countries around the world, with recorded data for more recent years and historical estimates for years further in the past. This data was pulled from OurWorldInData, which compiled a set sourced from, the [Hyde Database](https://www.pbl.nl/en/image/links/hyde)<sup>3</sup>, [Gapminder](https://www.gapminder.org/about/)<sup>4</sup>, and the [United Nations](https://population.un.org/wpp/Download/Standard/Population/)<sup>5</sup>. 
 
@@ -48,7 +48,7 @@ Finally, we added continent labels by country, using a [Country & Area Dataset](
 <br>
 
 # Extraction and Transformation
-Our steps in processing the data were initially conducted through [VSCode python notebooks](/Workspaces/Vals_workspace/ETL.ipynb), where we cleaned up the datasets and ensured that they worked as we expected. We then recreated the process in Azure Databricks, also adding on steps to produce and consume Kafka messages, and finally deliver our data into an SQL database for querying and storage.
+Our steps in processing the data were initially conducted through [VSCode python notebooks](/Workspaces/Vals_workspace/ETL.ipynb), where we cleaned up the datasets and ensured that they worked as we expected. We then continued the process in Azure Databricks, using the cleaned and joined datasets for further steps to produce and consume Kafka messages and deliver our data into an SQL database for querying and storage.
 
 <br>
 
