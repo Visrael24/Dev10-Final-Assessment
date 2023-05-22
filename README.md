@@ -1,5 +1,11 @@
 <h1> StarSharks README </h1>
 
+<br>
+
+## Global Analysis of Fish Production and Consumption
+### Something Smells Fishy...
+
+<br>
 
 This document outlines the StarSharks' final project, including an [introduction and overview of the project](#introduction), steps on [how to navigate the folders](#repository-structure) in this Github Repository, a [walk through of our data processing](#etl), and what [technologies we used](#technologies-used).
 
@@ -61,3 +67,15 @@ Our ETL process for this project follows that outlined in the diagram above, and
 <br>
 
 ## Machine Learning
+For our predictions, we used the LinearRegression model from the SKlearn library, looking to make predictions on Average Life Expectancy based on a location's Population, Fish Production, Fish Consumption, and the Continent it is located on. The code for this Machine Learning process are stored in [this python notebook](./Workspaces/Vals_workspace/ML-ETL-Life-Expect.ipynb), and some of the results are displayed below.
+
+[Insert ML Results screenshots]
+
+<br>
+
+## Conclusions
+In addressing the questions we presented for this investigation, we came to find some relatively surprising results. From the data we gathered, we were able to find a slightly positive correlation between the quantity of fish produced by a country and how much each person in that country consumes.
+
+This correlation, however, is not strong enough to confidently guess how much an individual in a specific country might consume based on how much their country produces. On the contrary, it became evident that the top fish consuming countries in the world are not the same as the top fish producers; at times, the disparity in fish consumption between the two is relatively large. 
+
+Further, it can be seen that countries with higher per capita consumption of fish get more even amounts of protein from meat + seafood as they do vegetable sources, whereas high fish producers get the majority of their protein from vegetable sources.

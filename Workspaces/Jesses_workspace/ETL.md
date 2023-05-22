@@ -67,7 +67,8 @@ To do so, we used the `consumption` dataframe as a base, joining on columns from
 - The entire modified `life_expect` dataframe, merged on `'Entity'=='Country Name'`, `'Code'=='Country Code'`, and matching `Year`
 - At this point, redundant columns of `['Country Name', 'Country Code']` were dropped from the merged dataframe
 - The `c_n_c` dataframe was merged on matching `Entity`
-- Finally, the `% fish protein from all sources` and `% fish protein from animal sources` from the `protein_all` and `protein_animal` dataframes, respectively, were merged on matching `['Entity', 'Code', 'Year']` columns.
+
+As further additions, the `% fish protein from all sources` and the kg of protein columns from various sources from the `protein_all` dataframe, along with the `% fish protein from animal sources` column from the `protein_animal` dataframe, were merged together on matching `['Entity', 'Code', 'Year']` columns. These were used separately from the main dataframe for the creation of later visualizations. 
 
 <br>
 
