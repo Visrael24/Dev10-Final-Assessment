@@ -1,36 +1,7 @@
-<h1> StarSharks README </h1>
-This document outlines the StarSharks' final project, including how to navigate the folders in this Github Repository, a formal introduction to our project, where we sourced our data, and a walk through for our initial data processing.
-
-The folders in this repository consist of:
-
-[Data](/Data/), a folder holding our CSV files which we used to perform our data analysis.
-
-[Workspaces](/Workspaces/), a folder containing our individual workspaces, where we carried out work in python notebooks.
-- [Becca's Workspace](/Workspaces/Becca_workspace/)
-- [Jesse's Workspace](/Workspaces/Jesses_workspace/)
-- [Val's Workspace](/Workspaces/Vals_workspace/)
-
-<br>
-
-
-<h1 style="text-align: center;">
-Star Sharks ETL Report
-</h1>
-<p style="text-align: center;">
+# Star Sharks ETL Report
 Rebecca Blackham<br>
 Valor Israel<br>
 Jesse Noss
-</p>
-
-<br>
-
-# Introduction
-As our final project, our team sought to investigate global fishing trends, namely the production and consumption of fish and fish products by countries around the world.
-
-- Want to draw conclusions on different countries and regions
-- See how fish consump/production affects different aspects of them
-
-[finish introduction - what are we doing what are we studying]
 
 <br>
 
@@ -59,7 +30,9 @@ To begin this process, we gathered together the necessary csv files which were p
 `production = pd.read_csv('../../Data/Fish/fish-seafood-production.csv')`<br>
 `population = pd.read_csv('../../Data/Fish/population.csv')`<br>
 `life_expect = pd.read_csv('../../Data/to_merge/life_expectancy.csv')`<br>
-`c_n_c = pd.read_csv('../../Data/to_merge/country_and_continents.csv')`
+`c_n_c = pd.read_csv('../../Data/to_merge/country_and_continents.csv')`<br>
+`protein_all = pd.read_csv('../../Data/all_protein_consumption_sources.csv')`<br>
+`protein_animal = pd.read_csv('../../Data/animal_protein_consumption.csv')`
 
 <br>
 
@@ -69,6 +42,8 @@ For each of the newly created dataframes, we made sure that columns were named a
 - In the `production` dataframe, we renamed the existing column "`Fish and seafood | 00002960 || Production | 005511 || tonnes`" to "`Production_in_tons`"
 - In the `consumption` dataframe, we renamed the existing column "`Fish and seafood | 00002960 || Food available for consumption | 0645pc || kilograms per year per capita`" to "`kg_per_year_per_capita`"
 - In the `c_n_c` dataframe, we renamed the existing column "`country_or_area`" to "`Entity`"
+- In the `protein_all` dataframe, we renamed the existing column "`percent_fish_total_protein_per_capita`" to "`% fish protein from all sources`"
+- In the `protein_animal` dataframe, we renamed the existing column "`percent_fish_protein_all_animal`" to "`% fish protein from animal sources`"
 
 <br>
 Next, we made sure that the years the datasets covered matched up properly. After looking through each of them, we'd found that only one the Population dataframe had to be altered. We filtered the years of this dataframe by adding a clause `population['Year'] > 1960`, which limited its results to only those afer 1960. 
@@ -91,14 +66,37 @@ To do so, we used the `consumption` dataframe as a base, joining on columns from
 - `['Code', 'Year', 'Population (historical estimates)', 'Entity']` columns from the `population` dataframe, merged on matching `Code`, `Year`, and `Entity`
 - The entire modified `life_expect` dataframe, merged on `'Entity'=='Country Name'`, `'Code'=='Country Code'`, and matching `Year`
 - At this point, redundant columns of `['Country Name', 'Country Code']` were dropped from the merged dataframe
-- Finally, `c_n_c` dataframe was merged on matching `Entity`
+- The `c_n_c` dataframe was merged on matching `Entity`
+- Finally, the `% fish protein from all sources` and `% fish protein from animal sources` from the `protein_all` and `protein_animal` dataframes, respectively, were merged on matching `['Entity', 'Code', 'Year']` columns.
 
 <br>
 
 ## Exporting to CSV
 Once the final dataframe was put together from the merges, we exported it out as a CSV file with the Pandas function `.to_csv()`.
 
-[maybe add images showing the process? or better, links to notebooks]
+<br>
+
+## Stepping into Databricks
+Within a shared Databricks workspace, we set up a pipeline which would be used to move our new, cleaned, CSV file into a storage container in Azure and into a SQL database. 
+
+To do so, we uploaded the CSV into an initial storage container. We then set up a mount point to access this storage container directly from the Databricks workspace, and used this connection to read the contents of the CSV first into a Spark dataframe, and then converting that into a Pandas dataframe for convenience - the conversion step isn't entirely necessary, but we were all more comfortable using Pandas than Spark dataframes. 
+
+<br>
+
+## Kafka Pipeline
+With the mount point established and the data read in, we set up a Kafka Topic, Producer, and Consumer.
+
+Using the Kafka Producer, we sought to read the lines of our dataframe as individual messages, sending each one at a specified interval to be registered under our created Topic, and timestamped appropriately. We then used the Kafka Consumer to read back those messages we'd sent, recording them into a list and, once all messages were retrieved, recreating a dataframe with all the necessary contents.
+
+This final dataframe would then be saved into our blob storage, and uploaded into our SQL database,
+
+<br>
+
+## SQL
+As a final step, we performed some data normalization on the file uploaded into SQL, splitting the dataframe up into multiple tables, and tying them together with defined relationships, as displayed below.
+
+[Insert picture of ERD]
+
 <br>
 <br>
 
