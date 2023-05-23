@@ -35,7 +35,7 @@ The folders in this repository consist of:
 - [Jesse's Workspace](/Workspaces/Jesses_workspace/)
 - [Val's Workspace](/Workspaces/Vals_workspace/)
 
-
+[Images](./Images/), a folder containing images referenced in the README, ETL, and visualization outputs from our code notebooks.
 
 <br>
 
