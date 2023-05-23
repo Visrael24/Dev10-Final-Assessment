@@ -19,7 +19,7 @@ Finally, we added continent labels by country, using a [Country & Area Dataset](
 <br>
 
 # Extraction and Transformation
-Our steps in processing the data were initially conducted through [VSCode python notebooks](/Workspaces/Vals_workspace/ETL.ipynb), where we cleaned up the datasets and ensured that they worked as we expected. We then continued the process in Azure Databricks, using the cleaned and joined datasets for further steps to produce and consume Kafka messages and deliver our data into an SQL database for querying and storage.
+Our steps in processing the data were initially conducted through [VSCode python notebooks](./Workspaces/Vals_workspace/ETL.ipynb), where we cleaned up the datasets and ensured that they worked as we expected. We then continued the process in Azure Databricks, using the cleaned and joined datasets for further steps to produce and consume Kafka messages and deliver our data into an SQL database for querying and storage.
 
 <br>
 
@@ -96,7 +96,7 @@ This final dataframe would then be saved into our blob storage, and uploaded int
 ## SQL
 As a final step, we performed some data normalization on the file uploaded into SQL, splitting the dataframe up into multiple tables, and tying them together with defined relationships, as displayed below.
 
-[Insert picture of ERD]
+![](./Images/ERD.png)
 
 <br>
 <br>

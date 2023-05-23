@@ -28,9 +28,9 @@ The primary questions we looked to answer in this investigation were:
 
 The folders in this repository consist of:
 
-[Data](/Data/), a folder holding the CSV files which we used to perform our data analysis.
+[Data](./Data/), a folder holding the CSV files which we used to perform our data analysis.
 
-[Workspaces](/Workspaces/), a folder containing our individual workspaces, where we carried out work in python notebooks.
+[Workspaces](./Workspaces/), a folder containing our individual workspaces, where we carried out work in python notebooks.
 - [Becca's Workspace](/Workspaces/Becca_workspace/)
 - [Jesse's Workspace](/Workspaces/Jesses_workspace/)
 - [Val's Workspace](/Workspaces/Vals_workspace/)
@@ -40,7 +40,7 @@ The folders in this repository consist of:
 <br>
 
 ## ETL
-[Include image of ETL Diagram]
+![](./Images/diagram.png)
 Our ETL process for this project follows that outlined in the diagram above, and is explained in greater detail in our [ETL.md file, which you can explore by opening this link](./ETL.md). The linked document also addresses where we gathered our data from, providing links to the sources and brief descriptions of what each of them contains. 
 
 <br>
@@ -76,6 +76,9 @@ For our predictions, we used the LinearRegression model from the SKlearn library
 ## Conclusions
 In addressing the questions we presented for this investigation, we came to find some relatively surprising results. From the data we gathered, we were able to find a slightly positive correlation between the quantity of fish produced by a country and how much each person in that country consumes.
 
+
 This correlation, however, is not strong enough to confidently guess how much an individual in a specific country might consume based on how much their country produces. On the contrary, it became evident that the top fish consuming countries in the world are not the same as the top fish producers; at times, the disparity in fish consumption between the two is relatively large. 
 
-Further, it can be seen that countries with higher per capita consumption of fish get more even amounts of protein from meat + seafood as they do vegetable sources, whereas high fish producers get the majority of their protein from vegetable sources.
+Further, it can be seen that countries with higher per capita consumption of fish get more even amounts of protein from meat + seafood as they do vegetable sources, whereas high fish producers get the majority of their protein from vegetable sources. 
+
+Finally, in generating a predictive model to determine life expectancy based on some of our fish facts (fish production, consumption, as well as country population and location), we were able to produce a highly accurate predictive result. From this result, we could establish that there was a high correlation between fishing consumption and life expectancy of people within a country. This would support the question of "does eating fish lead to a longer life?", although it would be a bit more complicated to make the claim using our findings as a basis. 
