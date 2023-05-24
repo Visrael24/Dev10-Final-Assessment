@@ -67,9 +67,7 @@ Our ETL process for this project follows that outlined in the diagram above, and
 <br>
 
 ## Machine Learning
-For our predictions, we used the LinearRegression model from the SKlearn library, looking to make predictions on Average Life Expectancy based on a location's Population, Fish Production, Fish Consumption, and the Continent it is located on. The code for this Machine Learning process are stored in [this python notebook](./Workspaces/Vals_workspace/ML-ETL-Life-Expect.ipynb), and some of the results are displayed below.
-
-[Insert ML Results screenshots]
+For our predictions, we used the LinearRegression model from the SKlearn library, looking to make predictions on Average Life Expectancy based on a location's Population, Fish Production, Fish Consumption, and the Continent it is located on. The code for this Machine Learning process are stored in [this python notebook](Workspaces/Vals_workspace).
 
 <br>
 
