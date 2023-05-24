@@ -19,7 +19,7 @@ The primary questions we looked to answer in this investigation were:
 2. How much do countries depend on fish for sustenance?
 3. It's said that eating fish leads to healthier lives, is this true? 
 
-
+To address these questions, we created a [PowerBI Dashboard](https://app.powerbi.com/groups/me/dashboards/a74ff3fa-cdcc-427f-8fdd-cdebc69d73a5?ctid=d4e104e3-ae7d-4371-a239-745aa8960cc9&experience=power-bi) which incorporates our most useful visualizations and allows for more in-depth exploration about our findings.
 
 <br>
 
@@ -36,6 +36,8 @@ The folders in this repository consist of:
 - [Val's Workspace](/Workspaces/Vals_workspace/)
 
 [Images](./Images/), a folder containing images referenced in the README, ETL, and visualization outputs from our code notebooks.
+
+There are also two individual files, [the README which you are reading now](./README.md), and our [ETL Report](./ETL.md) which is addressed briefly in the next section. 
 
 <br>
 
@@ -76,7 +78,7 @@ Something to note; even though we achieved an r2 score of .76 as our final resul
 ## Conclusions
 In addressing the questions we presented for this investigation, we came to find some relatively surprising results. From the data we gathered, we were able to find a slightly positive correlation between the quantity of fish produced by a country and how much each person in that country consumes.
 
-![Correlation between Fish Production and Consumption by Country](./Images/Correlation.png)
+![Correlation between Fish Production and Consumption by Country](./Images/correlation.png)
 
 This correlation, however, is not strong enough to confidently guess how much an individual in a specific country might consume based on how much their country produces. On the contrary, it became evident that the top fish consuming countries in the world are not the same as the top fish producers.
 
