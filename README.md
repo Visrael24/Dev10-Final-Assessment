@@ -67,9 +67,9 @@ Our ETL process for this project follows that outlined in the diagram above, and
 <br>
 
 ## Machine Learning
-For our predictions, we used the LinearRegression model from the SKlearn library, looking to make predictions on Average Life Expectancy based on a location's Population, Fish Production, Fish Consumption, and the Continent it is located on. The code for this Machine Learning process are stored in [this python notebook](./Workspaces/Vals_workspace/ML-ETL-Life-Expect.ipynb), and some of the results are displayed below.
+For our predictions, we used the LinearRegression model from the SKlearn library, looking to make predictions on Average Life Expectancy based on a location's Population, Fish Production, Fish Consumption, and the Continent it is located on. The code for this Machine Learning process are stored in [this python notebook](Workspaces/Vals_workspace). We ended up using multiple Models, trained on different iterations of the same dataset in order to predict different y variables. Overall the model with the most success was the one predicting life expectancy based off of fish production and fish consumption.
 
-[Insert ML Results screenshots]
+Something to note; even though we achieved an r2 score of .76 as our final result for predicting life expectancy. This doesn't account for the possible external factors influencing the base data. For instance a countries wealth may be directly tied into consumption even more than production. So when the model is making these predictions is actually basing it off of the wealth of a country rather than just fish related statistics. 
 
 <br>
 
