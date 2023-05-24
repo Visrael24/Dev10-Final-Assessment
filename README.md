@@ -76,10 +76,19 @@ Something to note; even though we achieved an r2 score of .76 as our final resul
 ## Conclusions
 In addressing the questions we presented for this investigation, we came to find some relatively surprising results. From the data we gathered, we were able to find a slightly positive correlation between the quantity of fish produced by a country and how much each person in that country consumes.
 
-![Correlation between Fish Production and Consumption by Country](./Images/Correlation.gif)
+![Correlation between Fish Production and Consumption by Country](./Images/Correlation.png)
 
-This correlation, however, is not strong enough to confidently guess how much an individual in a specific country might consume based on how much their country produces. On the contrary, it became evident that the top fish consuming countries in the world are not the same as the top fish producers; at times, the disparity in fish consumption between the two is relatively large. 
+This correlation, however, is not strong enough to confidently guess how much an individual in a specific country might consume based on how much their country produces. On the contrary, it became evident that the top fish consuming countries in the world are not the same as the top fish producers.
+
+![Top Fish Producers vs Top Fish Consumers](./Images/producers_vs_consumers.png)
+
+At times, the disparity in fish consumption between the top fish producers and the top fish consumers is very large. Looking at the visual below, it can be seen that China, for example, has a consumption of around 40 kg per capita, whereas Iceland reaches about 83 kg.
+
+![Map of Fish Consumption in Countries (2020)](./Images/map.png)
 
 Further, it can be seen that countries with higher per capita consumption of fish get more even amounts of protein from meat + seafood as they do vegetable sources, whereas high fish producers get the majority of their protein from vegetable sources. 
+
+<img src="./Images/top_consumers.png" width="285"> 
+<img src="./Images/top_producers.png" width="288">
 
 Finally, in generating a predictive model to determine life expectancy based on some of our fish facts (fish production, consumption, as well as country population and location), we were able to produce a highly accurate predictive result. From this result, we could establish that there was a high correlation between fishing consumption and life expectancy of people within a country. This would support the question of "does eating fish lead to a longer life?", although it would be a bit more complicated to make the claim using our findings as a basis. 
