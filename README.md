@@ -76,6 +76,7 @@ For our predictions, we used the LinearRegression model from the SKlearn library
 ## Conclusions
 In addressing the questions we presented for this investigation, we came to find some relatively surprising results. From the data we gathered, we were able to find a slightly positive correlation between the quantity of fish produced by a country and how much each person in that country consumes.
 
+![Correlation between Fish Production and Consumption by Country](./Images/Correlation.gif)
 
 This correlation, however, is not strong enough to confidently guess how much an individual in a specific country might consume based on how much their country produces. On the contrary, it became evident that the top fish consuming countries in the world are not the same as the top fish producers; at times, the disparity in fish consumption between the two is relatively large. 
 
