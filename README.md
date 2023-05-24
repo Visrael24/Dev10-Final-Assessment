@@ -89,8 +89,8 @@ At times, the disparity in fish consumption between the top fish producers and t
 Further, it can be seen that countries with higher per capita consumption of fish get more even amounts of protein from meat + seafood as they do vegetable sources, whereas high fish producers get the majority of their protein from vegetable sources. 
 
 <p>
-<img src="./Images/top_consumers.png" width="45%" />
-<img src="./Images/top_producers.png" width="45%" />
+<img src="./Images/top_consumers.png" width="47%" />
+<img src="./Images/top_producers.png" width="47.5%" />
 </p>
 
 Finally, in generating a predictive model to determine life expectancy based on some of our fish facts (fish production, consumption, as well as country population and location), we were able to produce a highly accurate predictive result. From this result, we could establish that there was a high correlation between fishing consumption and life expectancy of people within a country. This would support the question of "does eating fish lead to a longer life?", although it would be a bit more complicated to make the claim using our findings as a basis. 
