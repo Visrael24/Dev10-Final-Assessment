@@ -1,4 +1,4 @@
-<h1> StarSharks README </h1>
+<h1> Dev10 Capstone Project README </h1>
 
 <br>
 
