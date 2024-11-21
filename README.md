@@ -7,7 +7,7 @@
 
 <br>
 
-This document outlines the StarSharks' final project, including an [introduction and overview of the project](#introduction), steps on [how to navigate the folders](#repository-structure) in this Github Repository, a [walk through of our data processing](#etl), and what [technologies we used](#technologies-used).
+This document outlines the Teams' final project, including an [introduction and overview of the project](#introduction), steps on [how to navigate the folders](#repository-structure) in this Github Repository, a [walk through of our data processing](#etl), and what [technologies we used](#technologies-used).
 
 <br> 
 
